@@ -9,7 +9,8 @@ void Squares(int num)
     for (int i = 1; i <= num; i++)
     {
         int res = (int)Math.Pow(i, 2);
-        Console.WriteLine(res);
+        Console.Write(res);
+        if (i != num) Console.Write(", ");
     }
 }
 
