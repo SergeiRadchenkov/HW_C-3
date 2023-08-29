@@ -14,5 +14,9 @@ void Diapozon(int quater)
         Console.WriteLine("X < 0, Y < 0");
     else if (quater == 4)
         Console.WriteLine("X > 0, Y < 0");
-
+    else 
+        Console.WriteLine("Такой четверти не существует");
 }
+
+int quater = InputNum("Введите номер четверти");
+Diapozon(quater);
